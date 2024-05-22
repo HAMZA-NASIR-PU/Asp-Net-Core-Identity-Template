@@ -6,9 +6,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+//Follwoing is the authentication handler
 builder.Services.AddAuthentication("MyCookieAuth").AddCookie("MyCookieAuth", options =>
 {
     options.Cookie.Name = "MyCookieAuth";
+    options.ExpireTimeSpan = TimeSpan.FromSeconds(60);
     //options.LoginPath = "/AccountFolder/LoginPage";  //Default path ==> /Account/Login
     //options.AccessDeniedPath = "/AccountFolder/AccessDeniedPage";
 });
