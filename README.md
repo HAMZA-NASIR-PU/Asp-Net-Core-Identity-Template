@@ -82,8 +82,8 @@ ASP.NET Core Identity is the membership system for building ASP.NET Core web app
 
 You can reach out to me using the following contact details:
 
-[![Email](https://img.shields.io/badge/Email-HamzaNasir%40yaani.com-brightgreen)](mailto:hamzanasir1111.hn@gmail.com.com)
+[![Email](https://img.shields.io/badge/Email-hamzanasir1111.hn%40gmail.com-brightgreen)](mailto:hamzanasir1111.hn@gmail.com.com)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-HamzaNasir-blue)](https://www.linkedin.com/in/hafiz-hamza-nasir-027737185/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hamza-Nasir-blue)](https://www.linkedin.com/in/hafiz-hamza-nasir-027737185/)
 
 I'm always open to development and collaboration. Feel free to reach out to me!
