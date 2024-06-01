@@ -31,7 +31,7 @@ ASP.NET Core Identity is a membership system that adds login functionality to AS
 
 ## <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width ="25" style="margin-bottom: -5px;"> Installation
 
-1. Check the database connection on the appsetting.json file. Customize the database connection path here according to your own computer. By default the database name is IdentityApp. You can enter SMTP settings from your own e-mail service.
+1. Check the database connection on the appsetting.json file. Customize the database connection path here according to your own computer. By default the database name is IdentityApp. I am using MYSQL database engine. You can enter SMTP settings from your own e-mail service.
 
    ```json
    {
