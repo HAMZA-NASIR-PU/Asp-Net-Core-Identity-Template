@@ -4,7 +4,7 @@
 
 ## <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d6c-818f-c4765d5e39a9" width="25" style="margin-bottom: -5px;"> About The Project
 
-ASP.NET Core Identity is the membership system for building ASP.NET Core web applications, including membership, login, and user data. ASP.NET Core Identity allows you to add login features to your application and makes it easy to customize data about the logged in user. You can find additional information in the ASP.NET Core Documentation.
+ASP.NET Core Identity is a membership system that adds login functionality to ASP.NET Core apps. It provides robust features for user authentication, authorization, and managing user accounts. With Identity, you can easily integrate login functionality using various authentication methods like cookies, JWT tokens, or external providers like Google or Facebook. It offers user management capabilities such as user registration, password hashing, account confirmation, and two-factor authentication. Moreover, it seamlessly integrates with Entity Framework Core for data storage, making it highly customizable and extensible. Its flexibility and security make it a preferred choice for building secure and scalable web applications.
 
 
 ## <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width ="25" style="margin-bottom: -5px;"> Features
@@ -31,7 +31,7 @@ ASP.NET Core Identity is the membership system for building ASP.NET Core web app
 
 ## <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width ="25" style="margin-bottom: -5px;"> Installation
 
-1. Check the database connection on the appsetting.json file. Customize the database connection path here according to your own computer. By default the database name is PortfolioDb. You can enter SMTP settings from your own e-mail service.
+1. Check the database connection on the appsetting.json file. Customize the database connection path here according to your own computer. By default the database name is IdentityApp. You can enter SMTP settings from your own e-mail service.
 
    ```json
    {
