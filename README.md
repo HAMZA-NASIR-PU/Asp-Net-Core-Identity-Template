@@ -42,10 +42,10 @@ ASP.NET Core Identity is the membership system for building ASP.NET Core web app
       }
    },
    "ConnectionStrings": {
-      "DefaultConnection": "Data Source=localhost\\SQLEXPRESS;Initial Catalog=IdentityDemoDb;Integrated Security=True; TrustServerCertificate=True; MultipleActiveResultSets=true"
+      "DefaultConnection": "Server=localhost;Database=IdentityApp;User=;Password=;"
    },
    "EmailSender": {
-      "Host": "mail.alanadiniz.com",
+      "Host": "",
       "Port": 587,
       "EnableSSL": false,
       "Username": "username",
