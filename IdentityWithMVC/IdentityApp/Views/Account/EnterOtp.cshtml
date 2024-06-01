@@ -1,0 +1,18 @@
+﻿@model OtpViewModel
+
+@{
+    ViewData["Title"] = "Enter OTP";
+}
+<h2>Enter OTP</h2>
+<hr>
+<form asp-controller="Account" asp-action="EnterOtp" method="post">
+    <input type="hidden" asp-for="Token" />
+
+    <div class="mb-3">
+        <label asp-for="Otp"></label>
+        <input asp-for="Otp" class="form-control" />
+        <span asp-validation-for="Otp" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Verify OTP</button>
+</form>

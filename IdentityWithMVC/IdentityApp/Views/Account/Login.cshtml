@@ -1,18 +1,29 @@
 ﻿@model LoginViewModel
 
+@{
+    ViewData["Title"] = "Login";
+}
+
 <h2>Login</h2>
 <hr>
+@if (TempData.ContainsKey("message"))
+{
+    <span class="text-danger">@TempData["message"]</span>
+}
 <form asp-action="Login" method="post">
     <div asp-validation-summary="All" class="text-danger"></div>
 
     <div class="mb-3">
         <label asp-for="Email"></label>
         <input asp-for="Email" class="form-control">
+        <span class="text-danger" asp-validation-for="Email"></span>
+
     </div>
 
     <div class="mb-3">
         <label asp-for="Password"></label>
         <input asp-for="Password" class="form-control">
+        <span class="text-danger" asp-validation-for="Password"></span>
     </div>
 
     <div class="form-check mb-3">
